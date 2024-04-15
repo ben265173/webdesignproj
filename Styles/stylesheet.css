@@ -5,6 +5,21 @@ header{
     padding: 20px;
 }
 
+footer{
+    background-color: white;
+    color: black;
+    height: 20px;
+    padding: 20px;
+}
+
+body{
+    background-image: url(../Images/background.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
 
 nav {
     background-color: gray;
@@ -33,7 +48,15 @@ nav ul{
     text-align: center;
     background-color:tan;
     font-family:Calibri;
+    padding: 10px;
 }
+
+#main2{
+    background-color:tan;
+    font-family:Calibri;
+    padding: 10px;
+}
+
 
 aside{
     width: 30%;
@@ -41,3 +64,16 @@ aside{
     float: right;
 }
 
+#recipetext{
+float: left;
+}
+
+#recipeimage{
+float: left;
+max-width: 350px;
+}
+
+.container{
+    margin: 100px auto;
+    width: 75%;
+}
